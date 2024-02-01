@@ -9,6 +9,7 @@ const Cart = () => {
   console.log(cartItems);
 
   const dispatch = useDispatch();
+  
 
   const handleClearCart = () => {
     dispatch(clearCart());
